@@ -1,0 +1,448 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.nav1{
+    padding: 15px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #07072e;
+    color: white;
+    font-size: 13px;
+}
+.nav1 .left a, .nav1 .right a{
+    text-decoration: none;
+    color:white;
+}
+.nav1 .left{
+    display: flex;
+    padding-left:50px ;
+    list-style: none;
+}
+.nav1 .right{
+    padding-right: 50px;
+}
+.nav1 .right a{
+    margin: 0 8px;
+}
+.nav1 .left li{
+    margin: 0 10px;
+}
+.nav1 .left li i{
+    margin: 0 5px;
+}
+.nav2{
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;}
+.nav2 ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.nav2 ul a{
+    color: black;
+    text-decoration: none;
+    margin: 0 50px;
+}
+.nav2 ul a:hover{
+    color: green;
+}
+.nav2 .icons{
+    width:15%;
+    padding-right:100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero{
+    height: 50vh;
+    background-color: #efefef;
+    color: #555151;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.hero .hero-text, .hero .about-hero-text{
+    margin-top: 15vh;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.hero .hero-text h1,
+.hero .hero-text h2,
+.hero .hero-text p{
+    margin-top: 7px;
+}
+.hero .image{
+    margin-top: 8vh;
+    margin-right: 22vw;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.title{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+.title p{
+    margin-top: 5px;
+    width: 60%;
+    text-align: center;
+}
+.cards,.about-cards{
+    padding: 10px 0;
+    display: flex;
+    justify-content:space-between ;
+    width: 70%;
+}
+.cards img{
+    border-radius: 100px;
+}
+.cards .card,.about-cards .about-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.about-cards .about-card{
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px 5px #ddd9d9;
+    height:20vh;
+    width:20%;
+    padding-top: 5%;
+}
+.cards .card p{
+    margin: 25px 0;
+    /* padding: 25px ; */
+    font-weight: 900 ;
+}
+.about-cards .about-card p{
+    padding: 25px;
+
+}
+
+.cards .card button{
+    padding: 10px;
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    margin: 5px 0;
+}
+.features{
+    background-color:#efefef ;
+    padding-bottom: 30px;
+}
+.features .f-cards{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.features .f-cards .rate{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px ;
+}
+.features .f-cards .rate p{
+    color: #cac0c0;
+}
+
+.features .f-cards .one,.features .f-cards .two ,.features .f-cards .three{
+    width: 30%;
+    background-color: white;
+    margin-right: 15px;
+}
+.features .f-cards img{
+    width: 100%;
+}
+.features .f-cards .one .caption,.features .f-cards .two .caption ,.features .f-cards .three .caption{
+    padding: 10px 15px 20px 10px;
+    color: #636a77;
+
+}
+.features .f-cards .one .caption .review,.features .f-cards .two .caption .review,.features .f-cards .three .caption .review{
+    margin-top: 15px;
+    color: #787d88;
+
+}
+
+
+.zay-info{
+    padding:30px 0 ;
+    display: flex;
+    justify-content: space-evenly;
+    width:100vw;
+    background-color: #212934;
+    color: #636a77;
+}
+.zay-info .contact ,.zay-info  .product ,.zay-info .info {
+    width: max-content;}
+
+
+.zay-info .contact ul,.zay-info  .product ul,.zay-info .info ul{
+    list-style: none;
+}
+.zay-info .contact ul li a,.zay-info  .product ul li a,.zay-info .info ul li a{
+    text-decoration: none;
+    color: #8b909b;
+
+}
+.zay-info .contact h4{
+        color: #53af6b;
+}
+.zay-info .contact h4,.zay-info  .product h4,.zay-info .info h4{
+    padding-bottom: 20px;}
+.zay-info .contact ul li ,.zay-info  .product ul li ,.zay-info .info ul li {
+    margin-bottom: 7px;
+
+}
+.middle-footer{
+    border-top: #efefef;
+    padding: 10px;
+    background-color: #262f3b;
+    display: flex;
+    justify-content: space-around;
+}
+.middle-footer .left{
+    margin-right: 150px;
+    margin-top: 15px;
+    
+}
+.middle-footer .left a{
+    margin-right: 15px;
+    
+}
+.middle-footer .buttons button{
+    padding: 5px  10px;
+
+}
+.middle-footer .buttons .two{
+    border: 1px solid #53af6b;
+    background-color: #53af6b;
+    color: white;
+
+}
+.middle-footer .buttons .one{
+    background-color: #212934;
+    color: white;
+    border: 1px solid #212934;
+}
+.bottom-footer{
+    padding: 10px;
+    background-color: #212934;
+    color: white;
+    font-size: 12px;
+    padding-left: 16%;
+}
+.bottom-footer  a{
+    color:white;
+}
+/* _______About us________ */
+.about-hero{
+    background-color: #59ab6e;
+    color: white;
+}
+.features .about-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features .about-brands img{
+    color: #262f3b;
+}
+/* ________Contact Us___________ */
+.contact-hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #eee;
+
+}
+.form{
+    padding: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form div{
+    margin-top:7px ;
+}
+.form .first-raw{
+    display: flex;
+}
+.form .first-raw .one{
+    margin-right: 15px;
+}
+.form div input{
+    padding: 5px;
+    width: 100%;
+}
+.form button{
+    padding: 10px;
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+}
+@media only screen and (max-width:350px){
+    .nav1, .nav2 .middle , .nav2 .icons, .hero .hero-text,.hero .image {
+        display: none;
+    }
+    .nav2 i{
+        margin:13px 15px 0 0;
+
+    }
+    .nav2 img{
+        width: 45px;
+        margin-left: 10px;
+    }
+    .nav2{
+        width: 100vw;
+    }
+    .hero{
+        padding: 30px 0 30px 30px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .mobile-hero-text h1,.mobile-hero-text h2,.mobile-hero-text h3,.mobile-hero-text p{
+        margin-bottom: 5px ;
+    }
+    .mobile-hero-text h1,.mobile-hero-text h2{
+        font-weight: 100;
+    }
+    .mobile-hero-text{
+        width: 75%;
+    }
+    .categories .title ,.categories .title p,.features .title p,.features .title,.features .f-cards h3{
+        width: 100%;
+        color: #555151;
+
+    }
+    .categories .title h2{
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+
+
+    }
+
+    .categories .title p,.features .title p{
+        font-size: 15px;
+        padding-left: 9px;
+        text-align: center;
+    }
+    .categories .cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+    
+
+    }
+    .categories .cards .card{
+
+        margin-bottom: 50px;
+    }
+    .categories .cards .card img{
+        width: 90%;
+        border-radius: 200%;
+    }
+    .features .f-cards{
+        background-color: #efefef;
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+    }
+    .features .f-cards .one,.features .f-cards .two,.features .f-cards .three{
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+    .features .f-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .zay-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .zay-info h4{
+        width: 100vw;
+        border-bottom:1px solid #696666;
+        padding-left: 20px;
+    }
+    .zay-info .product h4,.zay-info .info h4{
+        color: rgb(189, 185, 185);
+    }
+    .zay-info .contact ul,.zay-info .product ul, .zay-info .info ul{
+        padding: 20px;
+
+    }
+    .middle-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle-footer div{
+        margin-bottom: 10px;
+    }
+    .bottom-footer{
+        padding: 10px 0  10px 10px;
+    }
+    .about-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .about-cards .about-card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+ 
+
+    
+    
+
+}
+@media only screen and (min-width:351px){
+    .nav2 .fa-solid .fa-bars{
+        display: none;
+    }
+    .nav2 img{
+        margin-left: 100px;
+    }
+    .hero .mobile-hero,.mobile-hero-text{
+        display: none;
+    }
+   
+}
+
+
+
+
+
+
+
